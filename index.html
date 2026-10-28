@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamBox | Seu universo de entretenimento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <a class="logo" href="#">STREAM<span>BOX</span></a>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="destaque" id="inicio">
+            <p class="etiqueta">SEU PRÓXIMO UNIVERSO FAVORITO</p>
+
+            <h1>Histórias que<br>merecem ser vistas.</h1>
+
+            <p class="descricao">
+                Descubra filmes e séries em um só lugar.
+                Seu próximo favorito está esperando.
+            </p>
+
+            <button id="botaoExplorar">Explorar catálogo</button>
+        </section>
+
+
+      <section class="catalogo" id="catalogo">
+    <h2>Em destaque</h2>
+
+    <input
+        type="text"
+        id="campoBusca"
+        placeholder="Buscar um filme..."
+    >
+
+    <div class="grade-filmes" id="gradeFilmes">
+        <!-- Os filmes serão adicionados pelo JavaScript -->
+    </div>
+</section>
+
+
+        <section class="sobre" id="sobre">
+            <h2>Sobre o StreamBox</h2>
+            <p>
+                Um projeto de estudo para descobrir novas histórias
+                e aprender como funciona uma plataforma de streaming.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>StreamBox — Projeto educacional.</p>
+    </footer>
+</body>
+</html>
